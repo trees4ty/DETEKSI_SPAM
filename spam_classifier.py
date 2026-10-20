@@ -135,7 +135,7 @@ st.markdown(
 @st.cache_resource
 def load_ml_pipeline():
     # Cukup load 1 file pipeline saja (sudah termasuk TfidfVectorizer + LogisticRegression)
-    pipeline_model = load_model("model/spam_classifier_model.pkl")
+    pipeline_model = load_model("MODEL/spam_classifier_model.pkl")
     return pipeline_model
 
 
